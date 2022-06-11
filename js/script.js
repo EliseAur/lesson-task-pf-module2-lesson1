@@ -21,10 +21,12 @@ if (requiredName.toUpperCase() === suppliedName.toUpperCase()) {
 }
 
 //Question 2
-//Write an if statement to check if the variable below has a minimum character count of 4 and a maximum of 10.
+//Write an if statement to check if the variable below has a 
+//minimum character count of 4 and a maximum of 10.
 //var username = "myusername";
 //If both tests pass log a message saying "Acceptable username".
-//If either test fails use nested if statements to indicate which test failed, e.g. if the character count is too low, log the message "Too few characters".
+//If either test fails use nested if statements to indicate which test failed, e.g. 
+//if the character count is too low, log the message "Too few characters".
 //If the character count is too high, log the message "Too many characters".
 //Change the variable's value to test your code.
 
@@ -53,7 +55,8 @@ if (lengthOfName >= 4 && lengthOfName <= 10) {
 //var invoicePaid = true;
 //var productDispatched = false;
 //var customerHasSigned = false;
-//If the order is complete log the message "Order complete". If not, use nested if statements to indicate why the order is incomplete.
+//If the order is complete log the message "Order complete". 
+//If not, use nested if statements to indicate why the order is incomplete.
 //Use the logical AND (&&) operator to complete this task.
 //Change the variables' values to test your code.
 
