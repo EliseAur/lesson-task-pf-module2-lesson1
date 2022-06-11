@@ -113,3 +113,19 @@ if (invoicePaid !== true || productDispatched !== true || customerHasSigned !== 
 } else {
     console.log("Order is complete");
 }
+
+//or
+
+if (!invoicePaid || !productDispatched || !customerHasSigned) {
+    if (!invoicePaid) {
+        console.log("Invoice is not paid");
+    }
+    if (!productDispatched) {
+        console.log("Product is not dispatched");
+    }
+    if (!customerHasSigned) {
+        console.log("Customer has not signed");
+    }
+} else {
+    console.log("Order complete");
+}
