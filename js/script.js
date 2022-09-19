@@ -46,6 +46,27 @@ if (lengthOfName >= 4 && lengthOfName <= 10) {
     }
 }
 
+//FASIT
+// Question 2
+var username = "myusername";
+
+// we're going to use the length property more than once so assign it to a variable
+var len = username.length;
+console.log(len);
+
+if (len >= 4 && len <= 10) {
+    console.log("Acceptable username");
+}
+else {
+    if (len < 4) {
+        console.log("Too few characters");
+    }
+
+    if (len > 10) {
+        console.log("Too many characters");
+    }
+}
+
 //Question 3
 //The following criteria need to be met before an order can be considered complete:
 //The invoice must be paid
